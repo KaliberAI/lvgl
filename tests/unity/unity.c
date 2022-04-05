@@ -3,6 +3,9 @@
     Copyright (c) 2007-21 Mike Karlesky, Mark VanderVoord, Greg Williams
     [Released under MIT License. Please refer to license.txt for details]
 ============================================================================ */
+/* Prevent ISO C error: empty translation unit */
+typedef int dummy_var;
+
 #if LV_BUILD_TEST
 #define UNITY_INCLUDE_PRINT_FORMATTED   1
 #include "unity.h"
