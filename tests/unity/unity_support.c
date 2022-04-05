@@ -11,6 +11,9 @@
 /*********************
  *      INCLUDES
  *********************/
+/* Prevent ISO C error: empty translation unit */
+typedef int dummy_var;
+
 #if LV_BUILD_TEST
 #include "../lvgl.h"
 

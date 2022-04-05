@@ -8,6 +8,9 @@
  * 2021-10-18     Meco Man     The first version
  */
 
+/* Prevent ISO C error: empty translation unit */
+typedef int dummy_var;
+
 #ifdef __RTTHREAD__
 
 #include <rtthread.h>
